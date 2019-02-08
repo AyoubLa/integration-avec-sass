@@ -1,0 +1,12 @@
+@mixin white-box{
+	padding: 14px 16px;
+	color: $white-color;
+}
+@mixin header-menu{
+	list-style: none;
+	display: inline-block;
+}
+@mixin header-menu-link{
+	text-decoration: none;
+	
+}

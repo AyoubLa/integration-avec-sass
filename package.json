@@ -1,0 +1,22 @@
+{
+  "name": "frontend-academy-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/fkasim/frontend-academy-html-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fkasim/frontend-academy-html-css#readme",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}

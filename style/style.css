@@ -1,0 +1,80 @@
+/*
+Error: Invalid CSS after "$dist-1:58.33%%": expected expression (e.g. 1px, bold), was ";"
+        on line 11 of src/_variables.scss
+        from line 1 of src/main.scss
+
+6: $dist-1:8.33%;
+7: $dist-1:8.33%;
+8: $dist-1:33.33%;
+9: $dist-1:4.66%;
+10: $dist-1:50%;
+11: $dist-1:58.33%%;
+12: $dist-1:66.66%;
+13: $dist-1:75%%;
+14: $dist-1:83.33%%;
+15: $dist-1:91.66%;
+16: $dist-12:100%;
+
+Backtrace:
+src/_variables.scss:11
+src/main.scss:1
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/lexer.rb:240:in `expected!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:855:in `assert_expr'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:284:in `times_div_or_mod'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:272:in `plus_or_minus'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:272:in `relational'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:272:in `eq_or_neq'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:272:in `and_expr'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:272:in `or_expr'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:481:in `space'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:422:in `interpolation'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:343:in `expr'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:853:in `assert_expr'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/parser.rb:68:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1164:in `sass_script'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:653:in `variable'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:707:in `block_child'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:700:in `block_contents'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:387:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/bin/sass:13:in `<top (required)>'
+C:/Ruby25-x64/bin/sass:23:in `load'
+C:/Ruby25-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$dist-1:58.33%%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 11 of src/_variables.scss\A         from line 1 of src/main.scss\A \A 6: $dist-1:8.33%;\A 7: $dist-1:8.33%;\A 8: $dist-1:33.33%;\A 9: $dist-1:4.66%;\A 10: $dist-1:50%;\A 11: $dist-1:58.33%%;\A 12: $dist-1:66.66%;\A 13: $dist-1:75%%;\A 14: $dist-1:83.33%%;\A 15: $dist-1:91.66%;\A 16: $dist-12:100%;"; }

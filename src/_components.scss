@@ -1,0 +1,11 @@
+.element-header{
+	@include white-box;
+}
+
+.header-menu{
+	@include header-menu;
+	.header-menu-link{
+		@include header-menu-link;
+		color: $white-color;
+	}
+}
